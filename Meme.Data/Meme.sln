@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meme.Data", "Meme.Data\Meme.Data.csproj", "{E7D1F6E2-612A-448D-B0AB-F4D058D18CEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meme.Web", "Meme.Web\Meme.Web.csproj", "{8B611462-48C2-41ED-8C9C-4D915BD6D9FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7D1F6E2-612A-448D-B0AB-F4D058D18CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7D1F6E2-612A-448D-B0AB-F4D058D18CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7D1F6E2-612A-448D-B0AB-F4D058D18CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7D1F6E2-612A-448D-B0AB-F4D058D18CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B611462-48C2-41ED-8C9C-4D915BD6D9FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B611462-48C2-41ED-8C9C-4D915BD6D9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B611462-48C2-41ED-8C9C-4D915BD6D9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B611462-48C2-41ED-8C9C-4D915BD6D9FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

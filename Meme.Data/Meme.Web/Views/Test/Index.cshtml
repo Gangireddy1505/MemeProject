@@ -1,0 +1,124 @@
+﻿<html ng-app="crudModule">
+@{
+    ViewBag.Title = "Index";
+}
+<head title="">
+    <style type="text/css">
+        #tblContainer, #tblcollections, #tblCRUD, td {
+            border: solid;
+        }
+ 
+        th {
+            background-color: darkgray;
+        }
+ 
+        #dvcollection {
+            height: 500px;
+            overflow-y: scroll;
+        }
+    </style>
+    
+</head>
+    <h2>Operations on Meme data</h2>
+    <body>
+
+       <table id="tblContainer" ng-controller="crudController">
+        <tr>
+            <td>
+                <table id="tblCRUD">
+                    <tr>
+                        <td>
+                            <span>MemeId</span>
+                        </td>
+                        <td>
+                            <input type="text" id="memeId" readonly="readonly" ng-model="Id"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Title</span>
+                        </td>
+                        <td>
+                            <input type="text" id="title" required ng-model="Title" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>ImageUrl</span>
+                        </td>
+                        <td>
+                            <input type="text" id="image" required ng-model="ImageUrl" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Description</span>
+                        </td>
+                        <td>
+                            <input type="text" id="description" required ng-model="Description" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Genre</span>
+                        </td>
+                        <td>
+                            <input type="text" id="genre" required ng-model="Genre" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" id="new" value="New" ng-click="clear()" />
+                        </td>
+                        <td>
+                            <input type="button" id="save" value="Save" ng-click="save()" />
+                        </td>
+                        <td>
+                            <input type="button" id="delete" value="Delete" ng-click="delete()" />
+                        </td>
+                    </tr>
+                </table>
+                <div>{{Message}}</div>
+            </td>
+            <td>
+                <div class="filter">
+                    <label for="filter"><strong>Filte By Genre:</strong></label>
+                    <input type="text" name="Genre" ng-model="filter.Genre" />
+            </div>
+
+                <div id="dvcollection">
+                    <table id="tblcollections">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Title</th>
+                                <th>ImageUrl</th>
+                                <th>Description</th>
+                                <th>Genre</th>
+                            </tr>
+                        </thead>
+                        <tbody ng-repeat="meme in Meme | filter:filter" >
+                            <tr ng-click="get(meme)">
+                                <td> <span>{{meme.Id}}</span></td>
+                                <td> <span>{{meme.Title}}</span></td>
+                                <td> <span>{{meme.ImageUrl}}</span></td>
+                                <td> <span>{{meme.Description}}</span></td>
+                                <td> <span>{{meme.Genre}}</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+
+
+    </body>
+</html>
+ 
+<script src="~/Scripts/angular.js"></script>
+<script src="~/Scripts/angular-route.js"></script>
+<script src="~/Scripts/Module.js"></script>
+<script src="~/Scripts/Service.js"></script>
+<script src="~/Scripts/Controller.js"></script>

@@ -1,0 +1,16 @@
+C:\Learning\Meme.Data\Meme.Data\bin\Debug\Meme.Data.dll.config
+C:\Learning\Meme.Data\Meme.Data\bin\Debug\Meme.Data.dll
+C:\Learning\Meme.Data\Meme.Data\bin\Debug\Meme.Data.pdb
+C:\Learning\Meme.Data\Meme.Data\bin\Debug\EntityFramework.dll
+C:\Learning\Meme.Data\Meme.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Learning\Meme.Data\Meme.Data\bin\Debug\EntityFramework.xml
+C:\Learning\Meme.Data\Meme.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Learning\Meme.Data\Meme.Data\obj\Debug\Meme.Data.dll
+C:\Learning\Meme.Data\Meme.Data\obj\Debug\Meme.Data.pdb
+C:\Learning\Meme.Data\Meme.Data\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Learning\Meme.Data\Meme.Data\bin\Debug\System.Net.Http.Formatting.dll
+C:\Learning\Meme.Data\Meme.Data\bin\Debug\System.Web.Http.dll
+C:\Learning\Meme.Data\Meme.Data\bin\Debug\WebActivator.dll
+C:\Learning\Meme.Data\Meme.Data\bin\Debug\WebApiContrib.IoC.Ninject.dll
+C:\Learning\Meme.Data\Meme.Data\bin\Debug\System.Net.Http.Formatting.xml
+C:\Learning\Meme.Data\Meme.Data\bin\Debug\System.Web.Http.xml
